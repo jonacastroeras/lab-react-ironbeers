@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.singleBeer{
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.text-left{
+  text-align: left;
+}
+.text-gray{
+  color: gray;
+}
+.attenuation{
+  font-size: 20px;
+}
+.form-container{
+  padding-left: 35%;
+  padding-right: 35%;
+}
+.formItem{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formItem > input{
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid,rgb(196, 196, 196);
+}
+.formItem > textarea{
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgb(196, 196, 196);
+}
+.submit{
+  margin-top: 5%;
+  border: none;
+  background-color: rgb(0, 191, 255);
+  border-radius: 20px;
+  padding: 2% 10% 2% 10%;
+  color: white;
+  width: 100%;
+}
+.SearchInput{
+  padding: 1%;
+  width: 60%;
+  border-radius: 20px;
+  border: 1px solid rgb(196, 196, 196);
+  margin-bottom: 3%;
+}
